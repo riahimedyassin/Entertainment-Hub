@@ -1,0 +1,53 @@
+/* Reset default browser styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Tajawal:wght@300&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Tajawal', sans-serif;
+}
+:root {
+  --mainColor : #FF0000;
+  --secondColor:#950101;
+  --thirdColor:#3D0000;
+  --black: #000000;
+}
+
+  /* Global styles */
+  
+  .mainColor {
+    color: var(--mainColor);
+  }
+  .d-flex {
+    display: flex;
+  }
+  .jcc {
+    justify-content: center;
+  }
+  .jca {
+    justify-content: space-around;
+  }
+  .dc {
+    flex-direction: column;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .container {
+    margin: 80px;
+  }
+  .fr {
+    flex-wrap: wrap;
+  }
+  button {
+      cursor: pointer;
+
+  }
+nav li a {
+  color: var(--mainColor);
+  text-decoration: none;
+}
+  
+  
+ 
+  

@@ -1,0 +1,49 @@
+:root {
+    --mainYellow:rgb(255, 181, 90)
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../src/Imgs/horoscope.jpg);
+    background-size: cover;
+    color: var(--mainYellow);
+    text-shadow: 0 0 2px var(--mainYellow);
+}
+h1 {
+    color: rgb(255, 181, 90);
+    font-size: 4rem;
+    margin: 36px;
+    text-shadow: 0 0 5px var(--mainYellow);
+}
+#horoscopeDiv {
+    margin-top: 36px;
+    font-size: 36px;
+    text-shadow: 0 0 5px black;
+}
+label {
+    font-size: 24px;
+    font-weight: bold;
+}
+select {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 16px;
+    font-size: 1.2rem;
+}
+button {
+    width: 150px;
+    height: 60px; 
+    font-size: 1.2rem;
+    border-radius: 12px;
+    border: 4px solid var(--mainYellow);
+    background-color: transparent;
+    font-weight: bold ;
+    color:var(--mainYellow);
+    margin-top: 36px;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px var(--mainYellow);
+    text-shadow: 0 0 5px var(--mainYellow);
+}

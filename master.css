@@ -1,0 +1,55 @@
+  
+
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--black);
+    color : white;
+    font-family: 'Tajawal', sans-serif;
+  }
+  nav {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    box-shadow: 0 5px 10px 5px black;
+    z-index: 55;
+
+}
+nav ul {
+    list-style-type: none;
+    width: 80%;
+  }
+  nav ul li:hover {
+    outline : 4px solid white;
+    border-radius: 12px;
+    
+  }
+  nav ul li {
+    padding: 4px;
+    font-size: 1.2rem;
+    color: white;
+  }
+  main {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url(src/Imgs/welcome.jpg);
+    background-size: cover;
+    text-shadow: 0 0 5px black;
+  }
+  main h1 {
+    font-size: 4rem;
+
+  }
+  

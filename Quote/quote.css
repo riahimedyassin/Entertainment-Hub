@@ -1,0 +1,41 @@
+body {
+    background-color: #86B049;
+    width: 100%;
+    height: 100%;
+}
+.quoteContainer {
+    background-image: url(../src/Imgs/quoteBg.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#quoteRender {
+    color: white;
+    font-size: 55px;
+    text-shadow: 0 0 8px black;
+
+}
+button {
+    width: 150px;
+    height: 60px; 
+    font-size: 1.2rem;
+    border-radius: 12px;
+    border: 4px solid white;
+    background-color: transparent;
+    font-weight: bold ;
+    color:white;
+    margin-top: 36px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white;
+    color: #86B049;
+    border: 4px solid #86B049;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.127);
+}
+h2 {
+    text-shadow: 0 0 5px black;
+    color: white;
+    margin-bottom: 18px;
+}
